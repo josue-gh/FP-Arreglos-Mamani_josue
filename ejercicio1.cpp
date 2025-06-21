@@ -8,7 +8,7 @@ int main()
 {
 string texto;
 
-cout<<ingrese una oracion en minuscula <<endl;
+cout<<"ingrese una oracion en minuscula "<<endl;
 getline (cin, texto);
 
 int letra=1; 
@@ -25,7 +25,7 @@ letra=0;
 }
 }
 
-cout<<la oracion nueva es: <<endl;
+cout<<"la oracion nueva es: "<<endl;
 cout<<endl;
 cout<< texto;
     
